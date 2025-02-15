@@ -6,18 +6,6 @@ function IndexPopup() {
   const [selector, setSelector] = useState<string>("#itero")
   const [mesCS, setMesCS] = useState<string>("")
 
-  // const messageSend = () => {
-  //   chrome.runtime.sendMessage(
-  //     {
-  //       action: "test",
-  //       data: "test data"
-  //     },
-  //     function(response) {
-  //       alert(response.data)
-  //     }
-  //   )
-  // }
-
   return (
     <div style={{width: "10rem"}}>
       <p>オプションとかバックグラウンドとかタブとかやる</p>
