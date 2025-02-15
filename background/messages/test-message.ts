@@ -15,7 +15,7 @@ const handler: PlasmoMessaging.MessageHandler<
   RequestResponse
 > = async (req, res) => {
   const { input } = req.body
-
+  // res.send()でpopup.tsxに送る
   res.send(input + 1)
 }
 
