@@ -16,7 +16,7 @@ function IndexPopup() {
             const resp = await sendToBackground({
               // nameはbackground/messagesの中にあるtsファイルの名前に対応するっぽい
               // ex) background/messages/test-message.ts の場合は name: "test-message"
-              name: "test-message",
+              name: "test-message-number",
               body: {
                 input: 123
               }

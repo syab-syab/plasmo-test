@@ -11,7 +11,7 @@ const handler: PlasmoMessaging.MessageHandler<
   RequestResponse
 > = async (req, res) => {
   const { input } = req.body
-  res.send("From test-message-side.ts: " + input)
+  res.send("From test-messages-string.ts: " + input)
 }
 
 export default handler

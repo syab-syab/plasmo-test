@@ -18,7 +18,7 @@ function IndexSidePanel() {
       <button onClick={
         async () => {
           const resp = await sendToBackground({
-            name: "test-messages-side",
+            name: "test-messages-string",
             body: {
               input: data
             }
